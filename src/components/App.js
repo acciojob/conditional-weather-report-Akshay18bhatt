@@ -13,7 +13,7 @@ const App = () => {
         {/* Do not remove the main div */}
         <h1>Weather Report</h1>
         <p>Temperature: <span style={{color:tempColor}}>{weather.temperature}</span></p>
-        <p>Conditions: <span>{weather.conditions}</span></p>
+        <p>Conditions: {weather.conditions}</p>
     </div>
   )
 }
